@@ -1,8 +1,8 @@
-﻿# ESP32 - AWS IoT (TLS 相互認証) — ポートフォリオ
+﻿# ESP32 - AWS IoT (TLS 相互認証) 
 
 > 自分が実際に試した手順を記録したポートフォリオ用 READMEです。
 
-（オリジナルの `README.md` はREADME_originalとして残しています）。
+オリジナルの `README.md` はREADME_originalとして残しています。
 
 ---
 
