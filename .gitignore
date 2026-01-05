@@ -1,0 +1,15 @@
+# Ignore certificate files to avoid committing private keys
+# Ignore all files placed in main/certs/ so sensitive certs/keys are not added to git
+main/certs/*
+
+# Allow placeholder files so the directory can be tracked if needed
+!main/certs/.gitkeep
+!main/certs/README.md
+
+# If you prefer to ignore cert/key files anywhere in the repo, you can uncomment the lines below
+# **/*.pem
+# **/*.key
+# **/*.crt
+# **/*.der
+# **/*.p12
+# ignore certs\nmain/certs/*\n!main/certs/.gitkeep\n
