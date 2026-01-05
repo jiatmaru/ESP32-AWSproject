@@ -1,12 +1,12 @@
-# ESP32 - AWS IoT (TLS 相互認証) — ポートフォリオ
+﻿# ESP32 - AWS IoT (TLS 相互認証) — ポートフォリオ
 
 > 自分が実際に試した手順を記録したポートフォリオ用 READMEです。
 
-（オリジナルの `README.md` はそのまま残しています）。
+（オリジナルの `README.md` はREADME_originalとして残しています）。
 
 ---
 
-## 🔧 概要
+##  概要
 - ボード: **ESP32-DevKitC (Espressif Systems)**
 - ソフトウェア: **ESP-IDF (v5.4.1)** と **Amazon FreeRTOS / AWS IoT** のデモ
 - 目的: TLS の相互認証（クライアント証明書 + ルートCA）で ESP32 と AWS IoT を安全に通信させる
@@ -27,7 +27,7 @@
    （参考: https://github.com/espressif/esp-aws-iot ）
 
 3. AWS IoT 側で Thing を登録
-   - AWS コンソールで Thing を作成し、デバイス証明書・プライベートキー・ルートCA を取得。
+   - AWS コンソールで Thing を作成し、デバイス証明書プライベートキールートCA を取得。
 
     ![AWS デバイス登録画面](docs/images/AWSdev-registration.png)
 
@@ -82,10 +82,9 @@ main/certs/*.key
 
 ## リファレンス 
 - 元の example: https://github.com/espressif/esp-aws-iot
-- AWS IoT ドキュメントを参照して設定・証明書の扱いを確認しました。
+- AWS IoT ドキュメントを参照して設定証明書の扱いを確認しました。
 
 ---
 
-### 最後に
+### 
 この README は自分が再現できるようにまとめたポートフォリオ用ドキュメントです。元リポジトリへの帰属を明示し、機密情報は含めないようにしています。
-
